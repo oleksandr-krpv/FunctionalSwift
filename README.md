@@ -1,3 +1,3 @@
 # FunctionalSwift
 
-A description of this package.
+Couple of functions that make FP in swift easier
