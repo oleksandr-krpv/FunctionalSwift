@@ -53,5 +53,5 @@ public func combine<A, B>(
     _ value: A,
     with closure: @escaping (A) -> B
 ) -> () -> B {
-    return { closure(value) }
+    { closure(value) }
 }

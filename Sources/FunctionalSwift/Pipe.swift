@@ -28,5 +28,5 @@ public func |> <T, U>(
     value: T,
     function: ((T) -> U)
 ) -> U {
-    return function(value)
+    function(value)
 }
