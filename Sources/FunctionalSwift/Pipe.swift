@@ -24,6 +24,11 @@ precedencegroup pipe {
 //    precedence: 80
 }
 
+/// Operator enable piping of arguments inside function using simple syntax
+/// - Parameters:
+///   - value: argument to pass into function
+///   - function: function to receive argument
+/// - Returns: result of function from argument
 public func |> <T, U>(
     value: T,
     function: ((T) -> U)
