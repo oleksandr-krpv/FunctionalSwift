@@ -4,4 +4,4 @@ language: swift
 osx_image: xcode11.3
 script:
   - swift build
-  - swift test  
+  - swift test

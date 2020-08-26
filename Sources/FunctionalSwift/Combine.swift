@@ -49,6 +49,7 @@
   - Parameter closure: closure that will receive `value` as argument
   - Returns: modifed closure
  */
+@available(*, deprecated, message: "use `curry` instead")
 public func combine<A, B>(
     _ value: A,
     with closure: @escaping (A) -> B
