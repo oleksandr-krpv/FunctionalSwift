@@ -18,7 +18,7 @@ final class CollectTests: XCTestCase {
     }
     
     func testArgCollect() {
-        var counter = Counter()
+        let counter = Counter()
         
         func a(arg: Counter) {
             counter.count += 1
