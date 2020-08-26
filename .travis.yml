@@ -4,7 +4,7 @@ language: swift
 osx_image: xcode11.6
 script:
 - swift build
-- swift test
+- swift test --enable-code-coverage
 after_success:
 - bash <(curl -s https://codecov.io/bash) -X xcodellvm
 notifications:
