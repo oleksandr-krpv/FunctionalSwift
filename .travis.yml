@@ -6,7 +6,7 @@ script:
 - swift build
 - swift test --enable-code-coverage
 after_success:
-- bash <(curl -s https://codecov.io/bash) -X xcodellvm
+- bash <(curl -s https://codecov.io/bash)
 notifications:
   slack:
     secure: sOJJU5hj+r41Ke5Fh3qth2KJixWNbBKBxY/1JUw8FMjs03RIWhrAJiZZ7lQ6rBpmpRgH4eK6+e97jGIYmY1jv/+NlL9hKs7088jUbqFjMSvtZboPZHxWv5kyM/s5AX4JOUqSR8Ahu+sc2n8lKulbMOcmsA5vz/QH+Z939joFALW/KkDh/tlLt60me+NYyAe9rifhfJOzRLsC8jSbvgSXDX/RqzQaRdLxoEm+vvJxppuc73HcOO4cHoKDfzQfvvqg2y0rVtpyvlGREvfrhmTI6qkYt7Ro/5xAKKhXlNwC4q1iCLCBLgi4u6DO11ibfiAnDpMXTBapT3AO9sNRykbvz7lZu/zsJR4DOqsNOZZRu44qowiu+5iYod9IRqRlkfuNXB2LYrCvH9E8fsqUw6dNRmF2PV+JhocfUbcziVSaKnCZwVvC55nHEodBNHcNfX1MB29AZjJPvW0SrS0B8wXsaw+IW5D4NBJ4cUy4Fi4R2D8OCUMr2wKpjeMdNLVsxF9Qmefp0i1QLdOgQ72T4WyPlpX8MBR3u4UtTYDTBULMDE6QWJjNDKsMIzYEDhK1bTVrJGWQvvb/sk/aRUvvsHduWYQEdz8EMNvllJU3Vy77NorypLpAMZz/6hQnwLzdlwJir7kwbZyeGhvjNvjOJSIsBs5et/ZWiQ+ly7SycEbZrMQ=
