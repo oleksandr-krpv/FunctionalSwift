@@ -4,7 +4,7 @@ language: swift
 osx_image: xcode11
 env:
   - PROJECT_NAME=FunctionalSwift
-install: (swift package update)
+install: swift package update
 script:
-  - (swift build)
-  - (swift test)
+  - swift build
+  - swift test
