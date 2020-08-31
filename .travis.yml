@@ -6,7 +6,7 @@ script:
 - swift build
 - swift test --enable-code-coverage
 after_success:
-- xcrun llvm-cov export -format="lcov" .build/debug/SwiftLoggerPackageTests.xctest/Contents/MacOS/SwiftLoggerPackageTests -instr-profile .build/debug/codecov/default.profdata > info.lcov
+- xcrun llvm-cov export -format="lcov" .build/debug/FunctionalSwiftPackageTests.xctest/Contents/MacOS/FunctionalSwiftPackageTests -instr-profile .build/debug/codecov/default.profdata > info.lcov
 - bash <(curl -s https://codecov.io/bash)
 notifications:
   slack:
