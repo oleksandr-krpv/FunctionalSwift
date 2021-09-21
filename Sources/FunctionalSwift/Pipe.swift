@@ -21,7 +21,6 @@
 infix operator |> : pipe
 precedencegroup pipe {
     associativity: left
-//    precedence: 80
 }
 
 /// Operator enable piping of arguments inside function using simple syntax
